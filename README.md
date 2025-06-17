@@ -7,7 +7,7 @@
 ## /users
 
 GET: Get all the list of users in the system
-POST: Craete/Register a new user
+POST: Create/Register a new user
 
 ## /users/{id}
 
@@ -54,6 +54,6 @@ npm init
 npm i express
 npm i nodemon --save-dev
 
-npm run dev
+npm run dev --> to start te appln
 
 To restore node_modules and package-lock.json --> npm i/npm install
