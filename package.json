@@ -1,0 +1,23 @@
+{
+  "name": "library-management",
+  "version": "1.0.0",
+  "description": "This is a library managment API Backend for the managment of users and the books",
+  "homepage": "https://github.com/vinay-yadav-kavati/library-management-system#readme",
+  "bugs": {
+    "url": "https://github.com/vinay-yadav-kavati/library-management-system/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinay-yadav-kavati/library-management-system.git"
+  },
+  "license": "ISC",
+  "author": "vinay",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev":"node --watch index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
