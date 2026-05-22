@@ -1,29 +1,23 @@
 {
   "name": "library-management-system",
   "version": "1.0.0",
-  "description": "This is a library managment API Backend for the managment of users and the books",
+  "description": "This is a library management API Backend for the management of users and the books",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "node --watch index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rohan1917/library-management-system.git"
+    "url": "git+https://github.com/vinay-yadav-kavati/library-management-system.git"
   },
-  "author": "rohan kinnal",
+  "author": "vinay yadav kavati",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rohan1917/library-management-system/issues"
+    "url": "https://github.com/vinay-yadav-kavati/library-management-system/issues"
   },
-  "homepage": "https://github.com/rohan1917/library-management-system#readme",
+  "homepage": "https://github.com/vinay-yadav-kavati/library-management-system#readme",
   "dependencies": {
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "mongodb": "^6.17.0",
-    "mongoose": "^8.16.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.10"
+    "express": "^5.2.1"
   }
 }
